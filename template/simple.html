@@ -1,0 +1,12 @@
+
+{% extends 'base/layout.html' %}
+{% block content %}
+{% load static from staticfiles %}
+<html>
+    <body>
+        {%load static%}
+<div align="center">
+<img src="{% static '1.jpg'%}" alt='beach image'></div>
+</body>
+</html>
+{% endblock %}

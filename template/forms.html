@@ -1,0 +1,12 @@
+{% extends 'base/layout.html' %}
+{% block content %}
+<p>
+<h3>{{head}}</h3>
+</p>
+
+
+<form action="">
+    {%csrf_token%}
+    {{forms}}
+</form>
+{% endblock %}
